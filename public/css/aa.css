@@ -1,0 +1,132 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	list-style: none;
+	scroll-behavior: smooth;
+}
+:root{
+	--background-color: #fff;
+	--text-color: #221314;
+	--second-color: #5a7184;
+	--main-color: #6e54fa;
+	--big-font: 6rem;
+	--h2-font: 3rem;
+	--p-font: 1rem;
+}
+body {
+	background: url(../img/backgroud.gif);
+	background-attachment: fixed;
+    background-repeat : no-repeat;
+	background-size: 100% 100%; 
+}
+/*header*/
+header{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: transparent;
+	padding: 30px 5%;
+	transition: ease .40s;
+}
+.logo{
+	font-size: 35px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: var(--background-color);
+}
+.navbar{
+	display: flex;
+}
+.navbar a{
+	color: var(--background-color);
+	font-size: var(--p-font);
+	font-weight: 500;
+	padding: 10px 15px;
+	border-radius: 4px;
+	transition: ease .40s;
+}
+.navbar a:hover{
+	background: var(--background-color);
+	color: var(--text-color);
+	box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+	border-radius: 4px;
+}
+#btnlogin{
+	background:#0095ff;
+}
+
+
+/*asli*/
+.container1{
+	margin: auto;
+	margin-top : 120px;
+	height : 400px;
+	width : 400px;
+	border-radius : 10px;
+	background-color : #ff000000;
+}
+#h2{
+    font-family:Helvetica;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 50px;
+    color: #ffffff;
+    width: 100%;
+    line-height: 50px;
+}
+
+input[type=text]{
+	border : 2px solid #ffff;
+	border-radius:31px;
+	margin-bottom :1px ;
+	width: 75%;
+	height : 45px;
+	cursor :pointer;
+	text-indent: 1em;
+	font-family:Arial, Helvetica;
+	font-size:15px;
+}
+
+input[type=password]{
+	border : 2px solid #ffff;
+	border-radius:31px;
+	margin-bottom :1px ;
+	width: 75%;
+	height : 45px;
+	cursor :pointer;
+	text-indent: 1em;
+	font-family:Arial, Helvetica;
+	font-size:15px;
+}
+
+
+input[type=submit]
+
+{
+border: 0px;
+width: 75%;
+height : 45px;
+background-color: #0095ff;
+border-radius:31px;
+color: white;
+margin-top : 20px
+font-weight:bold;
+}
+a {
+	font-family:Arial, Helvetica;
+}
+input[type=submit]:hover{
+	background: #ffffff;
+	color: var(--text-color);
+	box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+	border-radius: 31px;
+}
+
